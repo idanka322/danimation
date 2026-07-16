@@ -83,7 +83,7 @@ export function Hero() {
                 transition={{ duration: 0.5, delay: 0.2, ease: 'easeOut' }}
                 className='text-muted-foreground max-w-2xl text-xl leading-relaxed font-light text-balance md:text-2xl'
               >
-                I’m Dani Akabani. A Staff Frontend Engineer obsessed with performance, design
+                I’m a Staff Frontend Engineer obsessed with performance, design
                 systems, and building applications that feel
                 <span className='text-foreground font-medium'> instant</span>.
               </motion.p>
@@ -147,19 +147,7 @@ export function Hero() {
               </div>
             </motion.div>
           </div>
-
-          {/* New: Image Column (Right Side) */}
-          <div className='hidden lg:block'>
-            <motion.div
-              initial={{ opacity: 0, scale: 0.8 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.6, delay: 0.4, ease: 'easeOut' }}
-            >
-              <ImagePlaceholder />
-            </motion.div>
-          </div>
         </div>{' '}
-        {/* End of Flex container */}
       </div>
     </section>
   )
