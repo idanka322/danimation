@@ -46,9 +46,6 @@ export function ArchitecturalCoda() {
         >
           {/* Column 1: Signature & Brand */}
           <motion.div variants={itemVariants} className='col-span-2 space-y-4 lg:col-span-1'>
-            <p className='bg-gradient-to-r from-blue-700 to-purple-400 bg-clip-text text-3xl font-extrabold text-transparent'>
-              Dani Akabani
-            </p>
             <p className='text-sm text-gray-400'>
               <strong>Staff Frontend Engineer</strong>. Focused on <strong>system design</strong>,
               measurable <strong>engineering clarity</strong>, and{' '}
