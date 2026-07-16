@@ -7,7 +7,7 @@ import { CookieConsent } from '@/ui/components'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Dani Akabani | Staff Frontend Engineer',
+  title: 'Peak Frontend mastery & perfromance',
   description: 'Building scalable frontend systems and driving measurable financial impact',
   openGraph: {
     type: 'website',
